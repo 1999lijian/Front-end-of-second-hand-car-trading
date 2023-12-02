@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>详细页</title>
+    <link rel="stylesheet" href="./css/homeCSS.css" />
+    <link rel="stylesheet" href="./css/detail_pageCSS.css" />
+  </head>
+  <body>
+    <header>
+      <!-- 导航栏 -->
+      <div class="top" style="height: 50px; font-size: 25px">
+        <ul style="padding-top: 5px">
+          <li><a href="home.html">首页</a></li>
+          <li><a href="buy_car.html">买二手车</a></li>
+          <li><a href="#">卖二手车</a></li>
+          <li><a href="#">我的</a></li>
+          <li><a href="signIn.html">后台</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- 商品的详细页 -->
+    <div class="details">
+      <!-- 详情页的左边 -->
+      <div class="left_side_of_detail_page">
+        <!-- 图片展示区 -->
+        <!-- 轮播图 -->
+        <div class="banner">
+          <div class="large_box">
+            <ul>
+              <li>
+                <img src="img/0.jpg" width="800" height="500" />
+              </li>
+              <li>
+                <img src="img/1.jpg" width="800" height="500" />
+              </li>
+              <li>
+                <img src="img/2.jpg" width="800" height="500" />
+              </li>
+              <li>
+                <img src="img/3.jpg" width="800" height="500" />
+              </li>
+              <li>
+                <img src="img/3.jpg" width="800" height="500" />
+              </li>
+            </ul>
+          </div>
+          <div class="small_box">
+            <span class="btns lefts_btn" onclick="left_btn()"></span>
+            <div class="small_list">
+              <ul>
+                <li class="on">
+                  <img src="img/0.jpg" width="150" height="100" />
+                  <div class="bun_bg"></div>
+                </li>
+                <li class="">
+                  <img src="img/1.jpg" width="150" height="100" />
+                  <div class="bun_bg"></div>
+                </li>
+                <li class="">
+                  <img src="img/2.jpg" width="150" height="100" />
+                  <div class="bun_bg"></div>
+                </li>
+                <li class="">
+                  <img src="img/3.jpg" width="150" height="100" />
+                  <div class="bun_bg"></div>
+                </li>
+                <li class="">
+                  <img src="img/3.jpg" width="150" height="100" />
+                  <div class="bun_bg"></div>
+                </li>
+              </ul>
+            </div>
+            <span class="btns rights_btn" onclick="right_btn()"></span>
+          </div>
+        </div>
+      </div>
+      <!-- 详情页的右边 -->
+      <div class="right_side_of_detail_page right_o">
+        <!-- 详细参数区 及 其他选项 -->
+        <!-- 内容 -->
+        <div>
+          <p class="zi">丰田86 2022款 GR 86 2.4L 自动</p>
+
+          <div class="zi_one">
+            <div>
+              <p class="zi_one_p">2017-12</p>
+
+              <p class="zi_one_p_one">上牌时间</p>
+            </div>
+
+            <!-- 竖线 -->
+            <div class="vertical_bar"></div>
+
+            <div>
+              <p class="zi_one_p">10 万公里</p>
+
+              <p class="zi_one_p_one">表显里程</p>
+            </div>
+            <!-- 竖线 -->
+            <div class="vertical_bar"></div>
+
+            <div>
+              <p class="zi_one_p">2.4</p>
+
+              <p class="zi_one_p_one">排量</p>
+            </div>
+            <!-- 竖线 -->
+            <div class="vertical_bar"></div>
+
+            <div>
+              <p class="zi_one_p">自动</p>
+
+              <p class="zi_one_p_one">变速箱</p>
+            </div>
+          </div>
+
+          <!-- 价格 -->
+          <div>
+            <p class="ci_o">到手价</p>
+            <p class="ci">14.99万</p>
+          </div>
+
+          <!-- 分期 -->
+          <div class="by_stages">
+            <p class="by_stages_z">首付4.49万起</p>
+            <hr
+              style="
+                height: 1px;
+                border: none;
+                border-top: 1px solid rgba(0, 0, 0, 0.21);
+                transform: translateY(-28px);
+              "
+            />
+            <p style="transform: translateY(-35px); margin-left: 10px">
+              在线分期秒批，最高可分期 50万
+            </p>
+          </div>
+
+          <!-- 保障 -->
+          <div class="guarantee">
+            <p class="guarantee_z">售后保障</p>
+            <hr
+              style="
+                height: 1px;
+                border: none;
+                border-top: 1px solid rgba(0, 0, 0, 0.21);
+                transform: translateY(-28px);
+              "
+            />
+            <p style="transform: translateY(-35px); margin-left: 20px">
+              7天无理由退车
+            </p>
+          </div>
+          <!-- 按钮 -->
+
+          <button class="button button2">咨询购车</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 页脚 -->
+    <footer style="height: 190px; margin-top: 330px">
+      <!-- 页脚详细电话等信息 -->
+      <div class="footer_Information">
+        <p>咨询电话：800-123-0000（周一至周日 8:00-21:00）</p>
+        <p>服务监督热线：10000000（周一至周日 9:00-18:00）</p>
+        <p>互联网违法或不良信息举报方式（未成年人）：</p>
+        <p>邮箱：1014135810@qq.com 电话：010-80000000</p>
+      </div>
+      <!-- 页脚图片1 -->
+      <div class="footer_Intermediate_information">
+        <img src="./img/l.png" alt="" style="height: 90px; width: 90px" />
+        <p style="text-align: center">下载APP</p>
+      </div>
+      <!-- 页脚图片2 -->
+      <div class="footer_Intermediate_information_one">
+        <img src="./img/l.png" alt="" style="height: 90px; width: 90px" />
+        <p style="text-align: center">关注小程序</p>
+      </div>
+
+      <!-- 相关信息 -->
+      <div class="Information">
+        <a href="#" class="footer_padding">关于瓜子</a>
+        <a href="#" class="footer_padding">集团介绍</a>
+        <a href="#" class="footer_padding">加入我们</a>
+        <a href="#" class="footer_padding">联系我们</a>
+        <a href="#" class="footer_padding">服务保障</a>
+        <a href="#" class="footer_padding">隐私声明</a>
+        <a href="#" class="footer_padding">服务条款</a>
+        <a href="#" class="footer_padding">营业执照</a>
+        <p style="padding-top: 8px; transform: translatex(10px); color: #fff">
+          Copyright 2021 www.guazi.com All Rights Reserved
+        </p>
+        <!-- line-height 文本行高 -->
+        <p style="padding-top: 10px; transform: translatex(10px); color: #fff">
+          京ICP备0号-0 ICP证01号
+        </p>
+      </div>
+    </footer>
+  </body>
+  <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+  <script src="./js/detail_pagejs.js"></script>
+</html>

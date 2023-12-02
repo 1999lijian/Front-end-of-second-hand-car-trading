@@ -1,0 +1,209 @@
+/* 详细内容布局 */
+.details {
+  display: flex;
+
+  height: 370px;
+}
+
+/* 左边图片的布局 */
+.left_side_of_detail_page {
+  margin-top: 80px;
+  height: 600px;
+  width: 50%;
+  margin-left: 30px;
+  float: left;
+}
+
+/* 轮播图 */
+body,
+div,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+img {
+  border: 0;
+}
+.banner {
+  width: 635px;
+}
+.large_box {
+  margin-bottom: 3px;
+  width: 800px;
+  height: 500px;
+  overflow: hidden;
+}
+.large_box img {
+  display: block;
+}
+.small_box {
+  width: 800px;
+  height: 200px;
+  overflow: hidden;
+}
+.small_list {
+  position: relative;
+  float: left;
+  width: 750px;
+  height: 100px;
+  overflow: hidden;
+}
+.small_list ul {
+  height: 100px;
+  overflow: hidden;
+}
+.small_list ul li {
+  position: relative;
+  float: left;
+  padding-right: 50px;
+  width: 100px;
+}
+.small_list ul li img {
+  display: block;
+}
+.small_list ul li .bun_bg {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 155px;
+  height: 100px;
+  background: #fff;
+  filter: alpha(opacity=60);
+  -moz-opacity: 0.6;
+  -khtml-opacity: 0.6;
+  opacity: 0.6;
+}
+.small_list ul li.on .bun_bg {
+  display: block;
+}
+.btns {
+  display: block;
+  width: 20px;
+  height: 100px;
+  background-color: #777;
+  background-repeat: no-repeat;
+  background-position: center center;
+  cursor: pointer;
+}
+.btns:hover {
+  background-color: #333;
+}
+.lefts_btn {
+  float: left;
+  margin-right: 10px;
+}
+.rights_btn {
+  float: right;
+}
+
+/* 右边的详细 参数 */
+.right_side_of_detail_page {
+  margin-top: 80px;
+  height: 600px;
+  width: 59%;
+  background-color: rgba(119, 119, 119, 0.023);
+  z-index: -999;
+}
+.right_o {
+  padding-left: 200px;
+}
+
+/* 内容字体 */
+.zi {
+  font-size: 30px;
+  font-family: heiti;
+  text-align: center;
+  margin-right: 200px;
+  line-height: 40px;
+}
+
+.zi_one {
+  display: flex;
+}
+.zi_one_p {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 20px;
+  line-height: 0.01px;
+}
+.zi_one_p_one {
+  text-align: center;
+  margin-left: 15px;
+  font-size: 17px;
+  line-height: 2ch;
+  color: rgb(81, 68, 68);
+}
+
+/* 竖线 */
+.vertical_bar {
+  position: relative;
+  width: 1px;
+  margin-left: 20px;
+  height: 60px;
+  background: rgba(147, 147, 147, 0.598);
+}
+
+/* 到手价格 */
+.ci_o {
+  font-size: 8px;
+}
+
+.ci {
+  font-size: 30px;
+  line-height: 0%;
+  color: crimson;
+}
+
+/* 分期 */
+.by_stages {
+  height: 100px;
+  width: 80%;
+  background-color: rgb(150, 232, 150);
+  border-radius: 10px;
+}
+.by_stages_z {
+  margin-left: 20px;
+  line-height: 70px;
+  font-size: 20px;
+  color: rgba(255, 0, 0, 0.7);
+}
+.guarantee {
+  height: 100px;
+  width: 80%;
+  background-color: rgba(252, 247, 157, 0.648);
+  border-radius: 10px;
+  margin-top: 40px;
+}
+.guarantee_z {
+  margin-left: 20px;
+  line-height: 70px;
+  font-size: 15px;
+  color: rgb(21, 16, 16);
+}
+
+/* 购车按钮 */
+.button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  margin-top: 30px;
+}
+
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}

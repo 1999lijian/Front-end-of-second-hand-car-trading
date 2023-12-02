@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/new.css" />
+    <title>二手车移动端首页</title>
+  </head>
+
+  <script>
+    if (localStorage.userid2 != "admin" || sessionStorage.userpwd2 != "admin") {
+      sessionStorage.removeItem("userpwd2");
+    }
+  </script>
+  <body>
+    <div class="container">
+      <!-- 搜索框 -->
+      <div class="search">
+        <div class="input">
+          <input type="text" placeholder="搜索" />
+        </div>
+        <div class="userlogo">
+          <a href="deng.html"></a>
+          <span>登录</span>
+        </div>
+      </div>
+      <!-- 轮播图 -->
+      <div class="show">
+        <div class="banner">
+          <ul>
+            <li><img src="./imgs/0.jpg" alt="" /></li>
+            <li><img src="./imgs/1.jpg" alt="" /></li>
+          </ul>
+        </div>
+      </div>
+      <!-- 导航 -->
+      <div class="title">
+        <ul>
+          <li><a href=""></a><span>分类</span></li>
+          <li><a href=""></a><span>热门车型</span></li>
+          <li><a href=""></a><span>最新上架</span></li>
+          <li><a href=""></a><span>跑车</span></li>
+          <li><a href=""></a><span>跑车</span></li>
+        </ul>
+      </div>
+      <!-- 导航结束-->
+
+      <!-- 内容区域 -->
+      <div class="main">
+        <ul class="news">
+          <li class="list list-right-img">
+            <div class="left">
+              <div class="new">
+                <p class="title list-ellipsis-1">
+                  实力更进一步 测试新福特翼虎2.0T顶配
+                </p>
+                <p class="content">
+                  作为改款车型，新福特翼虎(下简称“新翼虎”)表现出十足的诚意。首先，在外观设计上向大哥锐界靠拢，全新的造型颜值更高。配置方面较老款也有了明显的提升，其中最突出的就是升
+                </p>
+              </div>
+              <span class="time">2022-11-11</span>
+            </div>
+            <div class="right">
+              <img src="imgs/0.jpg" alt="" />
+            </div>
+          </li>
+          <li class="list list-right-img">
+            <div class="left">
+              <div class="new">
+                <p class="title list-ellipsis-1">
+                  近期一大波7座SUV来袭 谁能做新王者？
+                </p>
+                <p class="content">
+                  每次大车展，其实都能提炼些关键词作为标签，一来方便记忆；二来，车展本身的意义在于作为汽车发展的风向标，这些关键词也明确未来一段时间内汽车的发展方向。要说今年的广州车
+                </p>
+              </div>
+              <span class="time">2022-11-11</span>
+            </div>
+            <div class="right">
+              <img src="imgs/0.jpg" alt="" />
+            </div>
+          </li>
+          <li class="list list-bottom-tri">
+            <div class="top">
+              <div class="title list-ellipsis-2">文章标题文章标题文章标题</div>
+              <div class="img-wrap">
+                <div class="list-col-xs-4"><img src="imgs/0.jpg" alt="" /></div>
+                <div class="list-col-xs-4"><img src="imgs/0.jpg" alt="" /></div>
+                <div class="list-col-xs-4"><img src="imgs/0.jpg" alt="" /></div>
+              </div>
+            </div>
+            <div class="info">
+              <span class="">2022-11-11 11:11</span>
+            </div>
+          </li>
+          <li class="list list-no-img">
+            <div class="top">
+              <div class="title list-ellipsis-2">
+                15万不输合资的选择 精品国货SUV/中型车
+              </div>
+              <p class="content">
+                以前的自主品牌车型，印象中除了价格便宜外，就没有太多的优点了，与合资车确实存在着质的区别。不过在最近的几年时间内，国内汽车工业得到了飞速的发展，自主品牌进步神速，不
+              </p>
+            </div>
+            <div class="info">
+              <span class="">2022-11-11 11:11</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- 底部 -->
+      <div class="footer">
+        <div class="flex1">
+          <a href="index.html" class="pic1"></a><span>首页</span>
+        </div>
+        <div class="flex1">
+          <a href="buy.html" class="pic2"></a><span>购买</span>
+        </div>
+        <div class="flex1">
+          <a href="classification.html" class="pic3"></a><span>分类</span>
+        </div>
+        <div class="flex1">
+          <a href="I.html" class="pic4"></a><span>我的</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,123 @@
+.wrap {
+  max-width: 500px;
+  min-width: 500px;
+  margin: 0 auto;
+}
+.header {
+  position: fixed;
+  top: 0;
+  background-color: #f26b11;
+}
+.header .wrap {
+  height: 0.88rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h2 {
+  font-size: 0.36rem;
+  color: #fff;
+}
+
+.content {
+  margin-top: 0.88rem;
+}
+.user {
+  position: relative;
+  width: 100%;
+  height: 1.8rem;
+  background-color: #f26b11;
+}
+.user .touxiang {
+  position: relative;
+  padding: 0.1rem 0.2rem;
+  float: left;
+}
+.user .touxiang .pic {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background-size: contain;
+}
+.user .touxiang .name {
+  position: absolute;
+  left: 2rem;
+  top: 0.6rem;
+  width: 0.8rem;
+  height: 0.5rem;
+}
+.user .touxiang .name .p1 {
+  margin-bottom: 0.1rem;
+  color: #fff;
+  font-size: 0.25rem;
+}
+.user .touxiang .name .p2 {
+  font-size: 0.25rem;
+  font-style: oblique;
+}
+.user .qiandao {
+  position: absolute;
+  right: 0.2rem;
+  top: 0.6rem;
+  padding: 0.1rem 0.2rem;
+  float: right;
+  color: #f26b11;
+  font-size: 0.3rem;
+  background-color: #fff;
+  border-radius: 0.05rem;
+}
+.nav {
+  background-color: #fff;
+  padding: 0 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1.4rem;
+  color: #999;
+  font-size: 0.3rem;
+  text-align: center;
+}
+.nav .iconfont {
+  font-size: 0.35rem;
+}
+.nav p {
+  margin-top: 0.1rem;
+}
+.space {
+  width: 100%;
+  height: 0.2rem;
+  background-color: #f1f1f1;
+}
+.list {
+  margin-top: 0.2rem;
+  background-color: #fff;
+  color: #999;
+}
+.list .com {
+  position: relative;
+  padding: 0.1rem 0.2rem;
+  height: 1rem;
+  line-height: 1rem;
+  font-size: 0.3rem;
+  border-bottom: 1px solid #d8d8d8;
+}
+.list .com span {
+  margin-right: 0.2rem;
+}
+.list .com .iconfont {
+  font-size: 0.35rem;
+}
+.list .com .icon-xiangyoujiantou {
+  position: absolute;
+  right: 0;
+  top: 0.15rem;
+}
+.list .com .icon-color {
+  color: #f26b11;
+}
+.list .com .count {
+  margin-left: 3.2rem;
+  color: #f26b11;
+}

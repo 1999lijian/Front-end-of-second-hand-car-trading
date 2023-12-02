@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>首页</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1 minimum-scale=1.0  user-scalable=no "
+    />
+    <link type="text/css" href="./css/homeCSS.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- 头部 -->
+    <header>
+      <!-- 导航栏 -->
+      <div class="top">
+        <ul>
+          <li><a href="#">首页</a></li>
+          <li><a href="buy_car.html">买二手车</a></li>
+          <li><a href="#">卖二手车</a></li>
+          <li><a href="#">我的</a></li>
+          <li><a href="signIn.html">后台</a></li>
+        </ul>
+      </div>
+
+      <!-- 搜索框 -->
+      <div class="container">
+        <form action="#" target="_blank" class="parent">
+          <!-- enlarge : 搜索框放大-->
+          <div class="ui icon input enlarge">
+            <input type="text" placeholder="请输入关键词搜索" />
+            <i class="search link icon"></i>
+          </div>
+        </form>
+      </div>
+    </header>
+
+    <!-- 筛选 -->
+    <div class="screen">
+      <p class="searchs_typeface">买车<i class="ui angle right icon"></i></p>
+
+      <span class="searchs_move">
+        <a href="detail_page.html" target="_blank" class="searchs_spacing_big">
+          <img
+            src="./img/1195.png"
+            alt=""
+            style="height: 30px; margin-right: 5px; transform: translateY(8px)"
+          />丰田</a
+        >
+        <a href="detail_page.html" target="_blank" class="searchs_spacing"
+          ><img
+            src="./img/1195.png"
+            alt=""
+            style="height: 30px; margin-right: 5px; transform: translateY(8px)"
+          />丰田</a
+        >
+        <a href="detail_page.html" target="_blank"
+          ><img
+            src="./img/1195.png"
+            alt=""
+            style="height: 30px; margin-right: 5px; transform: translateY(8px)"
+          />丰田</a
+        >
+        <a href="detail_page.html" target="_blank" class="searchs_spacing"
+          ><img
+            src="./img/1195.png"
+            alt=""
+            style="height: 30px; margin-right: 5px; transform: translateY(8px)"
+          />丰田</a
+        >
+        <a href="detail_page.html" target="_blank"
+          ><img
+            src="./img/1195.png"
+            alt=""
+            style="height: 30px; margin-right: 5px; transform: translateY(8px)"
+          />丰田</a
+        >
+        <a href="detail_page.html" target="_blank" class="searchs_spacing"
+          ><img
+            src="./img/1195.png"
+            alt=""
+            style="height: 30px; margin-right: 5px; transform: translateY(8px)"
+          />丰田</a
+        >
+        <a href="detail_page.html" target="_blank"
+          ><img
+            src="./img/1195.png"
+            alt=""
+            style="height: 30px; margin-right: 5px; transform: translateY(8px)"
+          />丰田</a
+        >
+        <a href="detail_page.html" target="_blank" class="searchs_spacing"
+          ><img
+            src="./img/1195.png"
+            alt=""
+            style="height: 30px; margin-right: 5px; transform: translateY(8px)"
+          />丰田</a
+        >
+        <a href="detail_page.html" target="_blank"
+          ><img
+            src="./img/1195.png"
+            alt=""
+            style="height: 30px; margin-right: 5px; transform: translateY(8px)"
+          />丰田</a
+        >
+      </span>
+
+      <!-- 全部品牌筛选 -->
+      <div class="brand brand_hovers">
+        <span class="a">
+          <p href="#">全部品牌<i class="ui angle right icon"></i></p>
+          <!-- 悬停内容 -->
+          <div class="brand_hovers_content brand_frame brand_move_samll">
+            <!-- A品牌 -->
+            <h4 class="brand_typeface">A</h4>
+            <div class="brand_move">
+              <a href="detail_page.html" target="_blank" class="brand_spacing"
+                >奥迪</a
+              >
+              <a href="detail_page.html" target="_blank">奥迪</a>
+            </div>
+          </div>
+        </span>
+      </div>
+      <!-- 价格具体筛选 -->
+      <div class="price_specific_screening">
+        <a href="buy_car.html" target="_blank">四万以下</a>
+        <a href="buy_car.html" target="_blank" class="searchs_spacing">4-8万</a>
+        <a href="buy_car.html" target="_blank">8-15万</a>
+        <a href="buy_car.html" target="_blank" class="searchs_spacing"
+          >15-30万</a
+        >
+        <a href="buy_car.html" target="_blank">更多</a>
+      </div>
+
+      <!-- 车源信息 -->
+      <div class="vehicle_source_information">
+        <a href="buy_car.html" target="_blank">入门练手</a>
+        <a href="buy_car.html" target="_blank" class="searchs_spacing"
+          >自驾SUV</a
+        >
+        <a href="buy_car.html" target="_blank">商务</a>
+        <a href="buy_car.html" target="_blank" class="searchs_spacing"
+          >家用车</a
+        >
+        <a href="buy_car.html" target="_blank">更多车源</a>
+      </div>
+    </div>
+
+    <!-- 中间内容 -->
+    <div>
+      <!-- 中间内容标题 -->
+      <p style="font-size: 29px; margin-left: 20px; margin-top: 30px">
+        热卖车型
+      </p>
+
+      <!-- 列表标题 -->
+      <div class="content">
+        <!-- 最新上架 列表 -->
+        <div id="new_arrival" class="new_arrival">
+          <a href="#">最新上架</a>
+
+          <!-- 最新上架内容 -->
+          <div id="new_arrivals" class="new_arrivals">
+            <!-- 中间内容的盒子 -->
+            <div class="content_box">
+              <!-- 每台车的展示盒子   -->
+              <div
+                class="content_box_min"
+                onclick="window.open('detail_page.html','_self')"
+              >
+                <img
+                  src="./img/86.jpg"
+                  alt=""
+                  style="
+                    width: 98%;
+                    height: auto;
+                    margin-top: 10px;
+                    border-radius: 10px;
+                  "
+                />
+                <p class="content_box_min_typeface">
+                  丰田86 2017款 2.0L 自动精英型
+                </p>
+                <p class="content_box_min_typeface_one">2017年 | 10 万公里</p>
+                <p class="content_box_min_typeface_two">25万</p>
+                <p class="content_box_min_typeface_three">首付7.5万</p>
+              </div>
+              <div
+                class="content_box_min"
+                onclick="window.open('detail_page.html','_self')"
+              >
+                <img
+                  src="./img/86.jpg"
+                  alt=""
+                  style="
+                    width: 98%;
+                    height: auto;
+                    margin-top: 10px;
+                    border-radius: 10px;
+                  "
+                />
+                <p class="content_box_min_typeface">
+                  丰田86 2017款 2.0L 自动精英型
+                </p>
+                <p class="content_box_min_typeface_one">2017年 | 10 万公里</p>
+                <p class="content_box_min_typeface_two">25万</p>
+                <p class="content_box_min_typeface_three">首付7.5万</p>
+              </div>
+              <div
+                class="content_box_min"
+                onclick="window.open('detail_page.html','_self')"
+              >
+                <img
+                  src="./img/86.jpg"
+                  alt=""
+                  style="
+                    width: 98%;
+                    height: auto;
+                    margin-top: 10px;
+                    border-radius: 10px;
+                  "
+                />
+                <p class="content_box_min_typeface">
+                  丰田86 2017款 2.0L 自动精英型
+                </p>
+                <p class="content_box_min_typeface_one">2017年 | 10 万公里</p>
+                <p class="content_box_min_typeface_two">25万</p>
+                <p class="content_box_min_typeface_three">首付7.5万</p>
+              </div>
+              <div
+                class="content_box_min"
+                onclick="window.open('detail_page.html','_self')"
+              >
+                <img
+                  src="./img/86.jpg"
+                  alt=""
+                  style="
+                    width: 98%;
+                    height: auto;
+                    margin-top: 10px;
+                    border-radius: 10px;
+                  "
+                />
+                <p class="content_box_min_typeface">
+                  丰田86 2017款 2.0L 自动精英型
+                </p>
+                <p class="content_box_min_typeface_one">2017年 | 10 万公里</p>
+                <p class="content_box_min_typeface_two">25万</p>
+                <p class="content_box_min_typeface_three">首付7.5万</p>
+              </div>
+              <div
+                class="content_box_min"
+                onclick="window.open('detail_page.html','_self')"
+              >
+                <img
+                  src="./img/86.jpg"
+                  alt=""
+                  style="
+                    width: 98%;
+                    height: auto;
+                    margin-top: 10px;
+                    border-radius: 10px;
+                  "
+                />
+                <p class="content_box_min_typeface">
+                  丰田86 2017款 2.0L 自动精英型
+                </p>
+                <p class="content_box_min_typeface_one">2017年 | 10 万公里</p>
+                <p class="content_box_min_typeface_two">25万</p>
+                <p class="content_box_min_typeface_three">首付7.5万</p>
+              </div>
+              <div
+                class="content_box_min"
+                onclick="window.open('detail_page.html','_self')"
+              >
+                <img
+                  src="./img/86.jpg"
+                  alt=""
+                  style="
+                    width: 98%;
+                    height: auto;
+                    margin-top: 10px;
+                    border-radius: 10px;
+                  "
+                />
+                <p class="content_box_min_typeface">
+                  丰田86 2017款 2.0L 自动精英型
+                </p>
+                <p class="content_box_min_typeface_one">2017年 | 10 万公里</p>
+                <p class="content_box_min_typeface_two">25万</p>
+                <p class="content_box_min_typeface_three">首付7.5万</p>
+              </div>
+              <div
+                class="content_box_min"
+                onclick="window.open('detail_page.html','_self')"
+              >
+                <img
+                  src="./img/86.jpg"
+                  alt=""
+                  style="
+                    width: 98%;
+                    height: auto;
+                    margin-top: 10px;
+                    border-radius: 10px;
+                  "
+                />
+                <p class="content_box_min_typeface">
+                  丰田86 2017款 2.0L 自动精英型
+                </p>
+                <p class="content_box_min_typeface_one">2017年 | 10 万公里</p>
+                <p class="content_box_min_typeface_two">25万</p>
+                <p class="content_box_min_typeface_three">首付7.5万</p>
+              </div>
+              <div
+                class="content_box_min"
+                onclick="window.open('detail_page.html','_self')"
+              >
+                <img
+                  src="./img/86.jpg"
+                  alt=""
+                  style="
+                    width: 98%;
+                    height: auto;
+                    margin-top: 10px;
+                    border-radius: 10px;
+                  "
+                />
+                <p class="content_box_min_typeface">
+                  丰田86 2017款 2.0L 自动精英型
+                </p>
+                <p class="content_box_min_typeface_one">2017年 | 10 万公里</p>
+                <p class="content_box_min_typeface_two">25万</p>
+                <p class="content_box_min_typeface_three">首付7.5万</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 准新车 列表 -->
+        <div id="quasi_new_car" class="quasi_new_car">
+          <a href="">准新车</a>
+          <!-- 准新车内容 -->
+          <div id="quasi_new_cars" class="quasi_new_cars">
+            <!-- 准新车的盒子 -->
+            <div class="content_box content_box_two">
+              <div
+                class="content_box_min"
+                onclick="window.open('detail_page.html','_self')"
+              >
+                <img
+                  src="./img/87.jpg"
+                  alt=""
+                  style="
+                    width: 98%;
+                    height: auto;
+                    margin-top: 10px;
+                    border-radius: 10px;
+                  "
+                />
+                <p class="content_box_min_typeface">
+                  丰田86 2017款 2.0L 自动精英型
+                </p>
+                <p class="content_box_min_typeface_one">2017年 | 10 万公里</p>
+                <p class="content_box_min_typeface_two">25万</p>
+                <p class="content_box_min_typeface_three">首付7.5万</p>
+              </div>
+
+              <div
+                class="content_box_min"
+                onclick="window.open('detail_page.html','_self')"
+              >
+                <img
+                  src="./img/87.jpg"
+                  alt=""
+                  style="
+                    width: 98%;
+                    height: auto;
+                    margin-top: 10px;
+                    border-radius: 10px;
+                  "
+                />
+                <p class="content_box_min_typeface">
+                  丰田86 2017款 2.0L 自动精英型
+                </p>
+                <p class="content_box_min_typeface_one">2017年 | 10 万公里</p>
+                <p class="content_box_min_typeface_two">25万</p>
+                <p class="content_box_min_typeface_three">首付7.5万</p>
+              </div>
+
+              <div
+                class="content_box_min"
+                onclick="window.open('detail_page.html','_self')"
+              >
+                <img
+                  src="./img/87.jpg"
+                  alt=""
+                  style="
+                    width: 98%;
+                    height: auto;
+                    margin-top: 10px;
+                    border-radius: 10px;
+                  "
+                />
+                <p class="content_box_min_typeface">
+                  丰田86 2017款 2.0L 自动精英型
+                </p>
+                <p class="content_box_min_typeface_one">2017年 | 10 万公里</p>
+                <p class="content_box_min_typeface_two">25万</p>
+                <p class="content_box_min_typeface_three">首付7.5万</p>
+              </div>
+
+              <div
+                class="content_box_min"
+                onclick="window.open('detail_page.html','_self')"
+              >
+                <img
+                  src="./img/87.jpg"
+                  alt=""
+                  style="
+                    width: 98%;
+                    height: auto;
+                    margin-top: 10px;
+                    border-radius: 10px;
+                  "
+                />
+                <p class="content_box_min_typeface">
+                  丰田86 2017款 2.0L 自动精英型
+                </p>
+                <p class="content_box_min_typeface_one">2017年 | 10 万公里</p>
+                <p class="content_box_min_typeface_two">25万</p>
+                <p class="content_box_min_typeface_three">首付7.5万</p>
+              </div>
+
+              <div
+                class="content_box_min"
+                onclick="window.open('detail_page.html','_self')"
+              >
+                <img
+                  src="./img/87.jpg"
+                  alt=""
+                  style="
+                    width: 98%;
+                    height: auto;
+                    margin-top: 10px;
+                    border-radius: 10px;
+                  "
+                />
+                <p class="content_box_min_typeface">
+                  丰田86 2017款 2.0L 自动精英型
+                </p>
+                <p class="content_box_min_typeface_one">2017年 | 10 万公里</p>
+                <p class="content_box_min_typeface_two">25万</p>
+                <p class="content_box_min_typeface_three">首付7.5万</p>
+              </div>
+
+              <div
+                class="content_box_min"
+                onclick="window.open('detail_page.html','_self')"
+              >
+                <img
+                  src="./img/87.jpg"
+                  alt=""
+                  style="
+                    width: 98%;
+                    height: auto;
+                    margin-top: 10px;
+                    border-radius: 10px;
+                  "
+                />
+                <p class="content_box_min_typeface">
+                  丰田86 2017款 2.0L 自动精英型
+                </p>
+                <p class="content_box_min_typeface_one">2017年 | 10 万公里</p>
+                <p class="content_box_min_typeface_two">25万</p>
+                <p class="content_box_min_typeface_three">首付7.5万</p>
+              </div>
+
+              <div
+                class="content_box_min"
+                onclick="window.open('detail_page.html','_self')"
+              >
+                <img
+                  src="./img/87.jpg"
+                  alt=""
+                  style="
+                    width: 98%;
+                    height: auto;
+                    margin-top: 10px;
+                    border-radius: 10px;
+                  "
+                />
+                <p class="content_box_min_typeface">
+                  丰田86 2017款 2.0L 自动精英型
+                </p>
+                <p class="content_box_min_typeface_one">2017年 | 10 万公里</p>
+                <p class="content_box_min_typeface_two">25万</p>
+                <p class="content_box_min_typeface_three">首付7.5万</p>
+              </div>
+
+              <div
+                class="content_box_min"
+                onclick="window.open('detail_page.html','_self')"
+              >
+                <img
+                  src="./img/87.jpg"
+                  alt=""
+                  style="
+                    width: 98%;
+                    height: auto;
+                    margin-top: 10px;
+                    border-radius: 10px;
+                  "
+                />
+                <p class="content_box_min_typeface">
+                  丰田86 2017款 2.0L 自动精英型
+                </p>
+                <p class="content_box_min_typeface_one">2017年 | 10 万公里</p>
+                <p class="content_box_min_typeface_two">25万</p>
+                <p class="content_box_min_typeface_three">首付7.5万</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 更多 -->
+      <div class="more">
+        <a href="#" class="more_a"
+          >更多必看好车 <i class="ui angle right icon"></i
+        ></a>
+      </div>
+    </div>
+
+    <!-- 页脚 -->
+    <footer>
+      <!-- 页脚详细电话等信息 -->
+      <div class="footer_Information">
+        <p>咨询电话：800-123-0000（周一至周日 8:00-21:00）</p>
+        <p>服务监督热线：10000000（周一至周日 9:00-18:00）</p>
+        <p>互联网违法或不良信息举报方式（未成年人）：</p>
+        <p>邮箱：1014135810@qq.com 电话：010-80000000</p>
+      </div>
+      <!-- 页脚图片1 -->
+      <div class="footer_Intermediate_information">
+        <img src="./img/l.png" alt="" style="height: 90px; width: 90px" />
+        <p style="text-align: center">下载APP</p>
+      </div>
+      <!-- 页脚图片2 -->
+      <div class="footer_Intermediate_information_one">
+        <img src="./img/l.png" alt="" style="height: 90px; width: 90px" />
+        <p style="text-align: center">关注小程序</p>
+      </div>
+
+      <!-- 相关信息 -->
+      <div class="Information">
+        <a href="#" class="footer_padding">关于瓜子</a>
+        <a href="#" class="footer_padding">集团介绍</a>
+        <a href="#" class="footer_padding">加入我们</a>
+        <a href="#" class="footer_padding">联系我们</a>
+        <a href="#" class="footer_padding">服务保障</a>
+        <a href="#" class="footer_padding">隐私声明</a>
+        <a href="#" class="footer_padding">服务条款</a>
+        <a href="#" class="footer_padding">营业执照</a>
+        <p style="padding-top: 8px; transform: translatex(10px); color: #fff">
+          Copyright 2021 www.guazi.com All Rights Reserved
+        </p>
+        <!-- line-height 文本行高 -->
+        <p style="line-height: 10%; transform: translatex(10px); color: #fff">
+          京ICP备0号-0 ICP证01号
+        </p>
+      </div>
+    </footer>
+  </body>
+  <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+  <script type="text/javascript" src="./js/homejs.js"></script>
+</html>

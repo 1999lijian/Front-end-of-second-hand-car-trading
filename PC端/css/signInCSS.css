@@ -1,0 +1,80 @@
+/* 整体布局 */
+body {
+  padding: 0;
+  margin: 0;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* 背景 */
+  /*  top center no-repeat: 图片固定不动 */
+  background: url(../img/bj.jpg) top center no-repeat;
+  /* 背景的铺开 */
+  background-size: cover;
+}
+
+.login {
+  margin: 0 auto;
+  width: 400px;
+  height: 250px;
+  color: black;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.556);
+}
+
+/* 对登录 进行居中 */
+.one {
+  position: relative;
+  left: 0px;
+  top: 20px;
+}
+
+/* 主题的布局 */
+.theme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 账号 密码 居中布局 */
+.account_password {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 身份的布局 */
+.identity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+}
+.administrators {
+  /* 向右移动 */
+  margin-left: 40px;
+}
+
+.super_administrator {
+  /* 向右移动 */
+  margin-left: 25px;
+}
+
+/* 按钮布局 */
+.button_m {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 登录按钮 */
+.button_sign_in {
+  /* 向右移动 */
+  margin-right: 20px;
+}
+
+/* 注册按钮 */
+.button_register {
+  /* 向右移动 */
+  margin-left: 25px;
+}

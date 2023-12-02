@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+
+    <link rel="stylesheet" href="./css/one.css" />
+    <title>二手车移动端登录</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <form method="post" action="index.html" onsubmit="return sendok()">
+          <div class="oen">
+            <span style="font-size: 30px">登录界面</span>
+            <!-- 账号 -->
+            <div>
+              账号：
+              <input type="text" id="userid2" value="" />
+            </div>
+            <!-- 密码 -->
+            <div>
+              密码：
+              <input type="password" id="userpwd2" value="" />
+            </div>
+
+            <!-- 登录按钮 与 注册按钮 -->
+            <div class="button_m">
+              <button class="button_sign_in" type="submit">登录</button>
+              <button class="button_register">注册</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <!-- 底部 -->
+      <div class="footer">
+        <div class="flex1">
+          <a href="index.html" class="pic1"></a><span>首页</span>
+        </div>
+        <div class="flex1">
+          <a href="buy.html" class="pic2"></a><span>购买</span>
+        </div>
+        <div class="flex1">
+          <a href="classification.html" class="pic3"></a><span>分类</span>
+        </div>
+        <div class="flex1">
+          <a href="I.html" class="pic4"></a><span>我的</span>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    function sendok() {
+      if (userid2.value != "" && userpwd2.value != "") {
+        localStorage.userid2 = userid2.value;
+        sessionStorage.userpwd2 = userpwd2.value;
+        return true;
+      } else {
+        alert("重新输入");
+        return false;
+      }
+    }
+  </script>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>登录页面</title>
+    <link rel="stylesheet" href="./css/signInCSS.css" />
+  </head>
+  <body>
+    <div class="login">
+      <div class="one">
+        <!-- 主题 -->
+        <div class="theme">
+          <h2>二手车交易管理系统</h2>
+        </div>
+        <form method="post" action="manage.html" onsubmit="return sendok();">
+          <!-- 账号 与 密码 -->
+          <div>
+            <div class="account_password">
+              <span>账户:</span>
+              <input type="text" id="userid" value="" />
+            </div>
+            <div class="account_password">
+              <span>密码:</span>
+              <input type="password" id="userpwd" value="" />
+            </div>
+          </div>
+
+          <!-- 身份登录选项 -->
+          <div class="identity">
+            <!-- 用name中one 和 value 控制只能选一个单选框 -->
+            <input
+              type="radio"
+              class="administrators"
+              name="one"
+              value="one_1"
+            />管理员
+            <input
+              type="radio"
+              class="super_administrator"
+              checked="checked"
+              name="one"
+              value="one_2"
+            />超级管理员
+          </div>
+
+          <!-- 登录按钮 与 注册按钮 -->
+          <div class="button_m">
+            <button class="button_sign_in" type="submit">登录</button>
+            <button class="button_register">注册</button>
+          </div>
+
+          <p style="text-align: center">超级管理员 账号密码：admin</p>
+        </form>
+      </div>
+    </div>
+  </body>
+
+  <script>
+    function sendok() {
+      if (userid.value != "" && userpwd.value != "") {
+        localStorage.userid = userid.value;
+        sessionStorage.userpwd = userpwd.value;
+        return true;
+      } else {
+        alert("重新输入");
+        return false;
+      }
+    }
+  </script>
+</html>
